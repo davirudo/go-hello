@@ -1,5 +1,5 @@
 package gohello
 
-func Hello() string {
-	return "hello welcome to the v1.0.1"
+func Hello(name string) string {
+	return "hello" + name + " welcome to the v1.0.2"
 }
